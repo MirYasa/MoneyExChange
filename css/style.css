@@ -101,7 +101,7 @@ label {
 }
 
 .CH-left-bg {
-    background-image: url(/img/change/left-bg.png);
+    background-image: url(../img/change/left-bg.png);
     width: 621.45px;
     height: 449.64px;
     position: absolute;
@@ -111,7 +111,7 @@ label {
 }
 
 .CH-right-bg {
-    background-image: url(/img/change/right-bg.png);
+    background-image: url(../img/change/right-bg.png);
     width: 360px;
     height: 438px;
     position: absolute;
@@ -121,7 +121,7 @@ label {
 }
 
 .CH-tools-bg {
-    background-image: url(/img/change/tools-bg.png);
+    background-image: url(../img/change/tools-bg.png);
     width: 1133px;
     height: 392px;
     margin: auto;
@@ -236,7 +236,7 @@ label {
 }
 
 .sub-btn {
-    background-image: url(/img/change/Rectangle\ 128.png);
+    background-image: url(../img/change/Rectangle\ 128.png);
     width: 157px;
     height: 55px;
     color: #ffffff;
@@ -255,7 +255,7 @@ label {
     height: 35px;
     position: absolute;
     z-index: 3;
-    background-image: url(/img/change/shadow.png);
+    background-image: url(../img/change/shadow.png);
     border-radius: 9px;
     margin-left: 792px;
     cursor: pointer;
@@ -366,49 +366,49 @@ li:last-child .option{
 }
 
 .sber .icon {
-    background-image: url(/img/change/Sberbank.svg);
+    background-image: url(../img/change/Sberbank.svg);
     width: 37px;
     height: 37px;
 }
 
 .paypal .icon {
-    background-image: url(/img/change/Patpal.svg);
+    background-image: url(../img/change/Patpal.svg);
     width: 37px;
     height: 37px;
 }
 
 .yandex .icon {
-    background-image: url(/img/change/Yandex.svg);
+    background-image: url(../img/change/Yandex.svg);
     width: 37px;
     height: 37px;
 }
 
 .pm .icon {
-    background-image: url(/img/change/PM.svg);
+    background-image: url(../img/change/PM.svg);
     width: 37px;
     height: 37px;
 }
 
 .bit .icon {
-    background-image: url(/img/change/Bitcoin.svg);
+    background-image: url(../img/change/Bitcoin.svg);
     width: 37px;
     height: 37px;
 }
 
 .ethereum .icon {
-    background-image: url(/img/change/Ethereum.svg);
+    background-image: url(../img/change/Ethereum.svg);
     width: 37px;
     height: 37px;
 }
 
 .privat .icon {
-    background-image: url(/img/change/Privat.svg);
+    background-image: url(../img/change/Privat.svg);
     width: 37px;
     height: 37px;
 }
 
 .qiwi .icon {
-    background-image: url(/img/change/Qiwi.svg);
+    background-image: url(../img/change/Qiwi.svg);
     width: 37px;
     height: 37px;
 }
@@ -419,7 +419,7 @@ li:last-child .option{
 }
 
 .bot-bg {
-    background-image: url(/img/change/bot\ bg.png);
+    background-image: url(../img/change/bot\ bg.png);
     width: 1444px;
     height: 926px;
     position: absolute;
@@ -473,7 +473,7 @@ li:last-child .option{
 }
 
 .midlle-bg {
-    background-image: url(/img/us/bg.png);
+    background-image: url(../img/us/bg.png);
     height: 651px;
     position: absolute;
     z-index: 1;
@@ -483,7 +483,7 @@ li:last-child .option{
 .us-top-dots {
     width: 512px;
     height: 590px;
-    background-image: url(/img/us/top-dats.png);
+    background-image: url(../img/us/top-dats.png);
     position: absolute;
     margin-left: 36px;
     margin-top: -100px;
@@ -523,7 +523,7 @@ li:last-child .option{
 }
 
 .us-circle {
-    background-image: url(/img/us/circle.png);
+    background-image: url(../img/us/circle.png);
     width: 150px;
     height: 147px;
     position: absolute;
@@ -534,7 +534,7 @@ li:last-child .option{
 .img-content {
     width: 656px;
     height: 336px;
-    background-image: url(/img/us/avatar.png);
+    background-image: url(../img/us/avatar.png);
     margin-top: 95px;
     margin-right: 130px;
 }
@@ -542,7 +542,7 @@ li:last-child .option{
 .us-bot-dots {
     width: 355px;
     height: 396px;
-    background-image: url(/img/us/bot-dats.png);
+    background-image: url(../img/us/bot-dats.png);
     position: absolute;
     z-index: 4;
     margin-left: 991px;
@@ -619,7 +619,7 @@ li:last-child .option{
 }
 
 .comment-img {
-    background-image: url(/img/comment/bg-slide.png);
+    background-image: url(../img/comment/bg-slide.png);
     width: 283px;
     height: 347px;
     position: absolute;
@@ -662,14 +662,14 @@ li:last-child .option{
 }
 
 .slide-arrow-left {
-    background-image: url(/img/comment/Arrow\ 2.svg);
+    background-image: url(../img/comment/Arrow\ 2.svg);
     width: 37px;
     height: 16px;
     cursor: pointer;
 }
 
 .slide-arrow-right {
-    background-image: url(/img/comment/Arrow\ 1.svg);
+    background-image: url(../img/comment/Arrow\ 1.svg);
     width: 72px;
     height: 16px;
     margin-left: 23px;
@@ -681,7 +681,7 @@ li:last-child .option{
 }
 
 .CC-bg {
-    background-image: url(/img/comment/change\ bg.png);
+    background-image: url(../img/comment/change\ bg.png);
     width: 1238px;
     height: 447px;
     margin: auto;
@@ -689,7 +689,7 @@ li:last-child .option{
 }
 
 .CC-shadow {
-    background-image: url(/img/comment/change\ shadow.png);
+    background-image: url(../img/comment/change\ shadow.png);
     width: 1364px;
     height: 642px;
     position: absolute;
@@ -699,7 +699,7 @@ li:last-child .option{
 }
 
 .CC-img {
-    background-image: url(/img/comment/change\ arc.png);
+    background-image: url(../img/comment/change\ arc.png);
     width: 812px;
     height: 817px;
     position: absolute;
@@ -739,7 +739,7 @@ li:last-child .option{
 }
 
 .CC-button-shadow {
-    background-image: url(/img/comment/button-bg.png);
+    background-image: url(../img/comment/button-bg.png);
     width: 277px;
     height: 141px;
     position: absolute;
@@ -776,7 +776,7 @@ li:last-child .option{
 .footer-logo-img {
     width: 226px;
     height: 25px;
-    background-image: url(/img/footer/logo.png);
+    background-image: url(../img/footer/logo.png);
     cursor: pointer;
     src: url(/index.html);
 }
