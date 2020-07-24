@@ -186,8 +186,8 @@ function slider() {
             slides[i].style.display = 'none';
         }
 
-        slides[slideIndex - 1].style.display = 'block';
-        slides[slideIndex].style.display = 'block';
+        slides[slideIndex - 1].style.display = 'flex';
+        slides[slideIndex].style.display = 'flex';
     }
 
     leftArrow.addEventListener('click', () => {
