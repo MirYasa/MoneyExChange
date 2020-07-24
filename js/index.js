@@ -198,6 +198,8 @@ function slider() {
         plusSlide();
     });
 
+    debugger;
+
 }
 slider();
 change();

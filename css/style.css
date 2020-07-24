@@ -706,6 +706,8 @@ li:last-child .option{
     z-index: 3;
     margin-top: -174px;
     margin-left: -100px;
+
+    pointer-events: none;
 }
 
 .CC-block {
