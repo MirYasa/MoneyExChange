@@ -154,14 +154,51 @@ function change() {
     });
 }
 
-function footer() {
-    const footerLogo = document.querySelector('.footer-logo'),
-        footerYak = document.querySelector('.yakfooter');
+function slider() {
+    const leftArrow = document.querySelector('.slide-arrow-left'),
+        rightArrow = document.querySelector('.slide-arrow-right');
 
-    footerLogo.addEventListener('click', () => {
-        window.moveTo(0, 0);
+    let slideIndex = 1;
+
+    showSlides(slideIndex);
+
+    function plusSlide() {
+        showSlides(slideIndex += 1);
+    }
+
+    function minusSlide() {
+        showSlides(slideIndex -= 1);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.querySelectorAll('.comment-slide');
+
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = 'none';
+        }
+
+        slides[slideIndex - 1].style.display = 'block';
+        slides[slideIndex].style.display = 'block';
+    }
+
+    leftArrow.addEventListener('click', () => {
+        minusSlide();
     });
+
+    rightArrow.addEventListener('click', () => {
+        plusSlide();
+    });
+
 }
-footer();
+slider();
 change();
 select();
